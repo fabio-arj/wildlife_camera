@@ -8,5 +8,6 @@ dependencies = [
     "decord>=0.6.0",
     "easyocr>=1.7.2",
     "pandas>=2.3.3",
+    "streamlit>=1.50.0",
     "win11toast>=0.36.2",
 ]
