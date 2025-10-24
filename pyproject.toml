@@ -1,0 +1,12 @@
+[project]
+name = "wildlife-camera"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "decord>=0.6.0",
+    "easyocr>=1.7.2",
+    "pandas>=2.3.3",
+    "win11toast>=0.36.2",
+]
