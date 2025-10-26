@@ -22,5 +22,3 @@ def main(path):
     home_dir = os.path.expanduser("~")
     downloads_path = os.path.join(home_dir, "Downloads", "output.csv")
     df.to_csv(downloads_path, index=False)
-
-    toast("Processo concluído!", f"Arquivo salvo na sua pasta de Downloads")
